@@ -1,0 +1,23 @@
+{
+  "name": "node.js-practice",
+  "version": "0.0.1",
+  "description": "node.js practice, use koa to rewrite. prototype project: https://github.com/cnodejs/nodeclub",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\u001b[A\u001b[B"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiedacon/node.js-practice.git"
+  },
+  "author": "xiedacon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiedacon/node.js-practice/issues"
+  },
+  "homepage": "https://github.com/xiedacon/node.js-practice#readme"
+}
