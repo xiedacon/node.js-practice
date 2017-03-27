@@ -1,0 +1,10 @@
+node_modules
+
+*.min.*.js
+*.min.*.css
+
+desktop.ini
+
+*.log
+
+public/upload/*
