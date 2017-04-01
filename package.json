@@ -32,7 +32,7 @@
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "start": "./node_modules/mocha/bin/mocha --require co-mocha"
+    
   },
   "repository": {
     "type": "git",

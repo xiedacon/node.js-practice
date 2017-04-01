@@ -2,7 +2,7 @@
 const validator = require('validator');
 const crypto = require('crypto');
 
-module.export = {
+module.exports = {
   "(GET|POST) /signup": {
     "request.session": checkNotLogin
   },
@@ -16,7 +16,9 @@ module.export = {
     "request.body": checkSigninBody
   },
   "(GET|POST) /create": {
-    "request.session": checkLogin
+    "request":{
+      "session": checkLogin
+    }
   },
   "POST /create": {
     "request.body": checkCreateBody

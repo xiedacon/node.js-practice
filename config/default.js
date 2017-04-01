@@ -11,7 +11,7 @@ module.exports = {
     host : '192.168.199.182',
     port : '6379'
   },
-  schemeConf : path.join(__dirname, './default.scheme.js'),
+  schemeConf : require('./default.scheme.js'),
   staticCacheConf : path.join(__dirname, '../theme/publices'),
   renderConf : path.join(__dirname, '../theme/config'),
   routerConf : {
